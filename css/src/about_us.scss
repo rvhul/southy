@@ -1,0 +1,38 @@
+#about_us {
+  min-height: 100vh;
+  padding: 4em 2em;
+  background-image: url('../images/about_us.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  .about_us {
+    text-align: center;
+    background-color: black;
+    height: 28em;
+    width: 40vw;
+    opacity: .8;
+    margin: 25vh auto 0;
+    padding: 3em 2em;
+
+    h2 {
+      &.about {
+        font-size: 5em;
+        color: $main_color;
+        font-weight:400;
+        font-family: $native_font2;
+        font-style: italic;
+      }
+    }
+
+    p {
+      &.body {
+        font-size: 18px;
+        padding: 0em 1em;
+        color: $main_color;
+        font-weight: 100;
+        font-family: $native_font2;
+      }
+    }
+  }
+}

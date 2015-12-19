@@ -1,0 +1,92 @@
+/*
+Error: Invalid CSS after "      font-size:": expected expression (e.g. 1px, bold), was "}"
+        on line 34 of css/src/landing.scss
+        from line 2 of css/src/brain.scss
+
+29:     .navbar-brand {
+30:       text-transform: uppercase;
+31:       color: $main_color;
+32:       font-family: $native_font;
+33:       font-size:
+34:     }
+35:   }
+36: 
+37: .carousel-indicators {
+38:   position: absolute;
+39:   top: 50em;
+
+Backtrace:
+css/src/landing.scss:34
+css/src/brain.scss:2
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:1161:in `expected'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/script/lexer.rb:221:in `expected!'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/script/parser.rb:571:in `assert_expr'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/script/parser.rb:62:in `parse'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:1023:in `sass_script'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:876:in `value!'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:749:in `block in try_declaration'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:1137:in `call'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:1137:in `rethrow'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:762:in `try_declaration'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:692:in `declaration_or_ruleset'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:657:in `block_child'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:649:in `block_contents'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:638:in `block'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:707:in `declaration_or_ruleset'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:657:in `block_child'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:649:in `block_contents'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:638:in `block'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:707:in `declaration_or_ruleset'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:657:in `block_child'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:649:in `block_contents'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:638:in `block'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:631:in `ruleset'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:656:in `block_child'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:646:in `block_contents'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:117:in `stylesheet'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:42:in `parse'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/engine.rb:403:in `_to_tree'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/engine.rb:309:in `to_tree'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:324:in `block in visit_import'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/stack.rb:88:in `block in with_import'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/stack.rb:115:in `with_frame'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/stack.rb:88:in `with_import'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:323:in `visit_import'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/stack.rb:79:in `block in with_base'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/stack.rb:115:in `with_frame'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/stack.rb:79:in `with_base'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:52:in `map'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:36:in `visit'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/root_node.rb:36:in `css_tree'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/engine.rb:378:in `_render_with_sourcemap'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/engine.rb:295:in `render_with_sourcemap'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:209:in `each'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:328:in `block in watch'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/vendor/listen/lib/listen/listener.rb:252:in `call'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/vendor/listen/lib/listen/listener.rb:252:in `on_change'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
+/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"      font-size:\": expected expression (e.g. 1px, bold), was \"}\"\A         on line 34 of css/src/landing.scss\A         from line 2 of css/src/brain.scss\A \A 29:     .navbar-brand {\A 30:       text-transform: uppercase;\A 31:       color: $main_color;\A 32:       font-family: $native_font;\A 33:       font-size:\A 34:     }\A 35:   }\A 36: \A 37: .carousel-indicators {\A 38:   position: absolute;\A 39:   top: 50em;"; }
