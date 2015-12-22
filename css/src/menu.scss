@@ -5,7 +5,7 @@
   background-size: cover;
   background-position: center center;
 
-  carousel-control {
+  .carousel-control {
     position: absolute;
     top: 10%;
     bottom: 0;
@@ -23,11 +23,11 @@
   .carousel-control {
     &.left {
       left: 2em;
-      margin-top: 11em;
+      margin-bottom: 0em;
       width: 0em;
     }
     &.right {
-    margin-top: 11em;
+    margin-bottom: 0em;
     width: 0em;
     left: 55em;
     }
@@ -41,9 +41,9 @@
     height: 75em;
     width: 65vw;
     opacity: .8;
-    margin: 25vh auto 0;
+    margin: 15vh auto;
     padding: 2em 2em;
-    margin-left: -2em;
+    margin-left: 1.2em;
 
     h3 {
       color: $main-color;

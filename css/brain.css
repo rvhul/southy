@@ -98,7 +98,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center; }
-  #menu carousel-control {
+  #menu .carousel-control {
     position: absolute;
     top: 10%;
     bottom: 0;
@@ -113,10 +113,10 @@
     opacity: .5; }
   #menu .carousel-control.left {
     left: 2em;
-    margin-top: 11em;
+    margin-bottom: 0em;
     width: 0em; }
   #menu .carousel-control.right {
-    margin-top: 11em;
+    margin-bottom: 0em;
     width: 0em;
     left: 55em; }
   #menu .carousel-control.glyphicon-chevron-right {
@@ -127,9 +127,9 @@
     height: 75em;
     width: 65vw;
     opacity: .8;
-    margin: 25vh auto 0;
+    margin: 15vh auto;
     padding: 2em 2em;
-    margin-left: -2em; }
+    margin-left: 1.2em; }
     #menu .row h3 {
       color: #C9604C; }
       #menu .row h3.main {
