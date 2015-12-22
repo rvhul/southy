@@ -1,0 +1,115 @@
+#menu {
+  padding: 4em 2em;
+  background-image: url(../images/idli.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  carousel-control {
+    position: absolute;
+    top: 10%;
+    bottom: 0;
+    left: 39px;
+    width: 10%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+    background-color: rgba(0,0,0,0);
+    filter: alpha(opacity=50);
+    opacity: .5;
+  }
+
+  .carousel-control {
+    &.left {
+      left: 2em;
+      margin-top: 11em;
+      width: 0em;
+    }
+    &.right {
+    margin-top: 11em;
+    width: 0em;
+    left: 55em;
+    }
+    &.glyphicon-chevron-right {
+    margin-right: 50px;
+    }
+  }
+  .row {
+    text-align: center;
+    background-color: black;
+    height: 75em;
+    width: 65vw;
+    opacity: .8;
+    margin: 25vh auto 0;
+    padding: 2em 2em;
+    margin-left: -2em;
+
+    h3 {
+      color: $main-color;
+      &.main {
+        text-align: center;
+        font-family: $native-font;
+        font-style: italic;
+        font-size: 1.5em;
+        // color: $main-color;
+      }
+
+      &.item_header {
+
+        text-align: center;
+        font-family: $native_font2;
+        text-transform: capitalize;
+        margin-top: 45px;
+        margin-bottom: 35px;
+        margin-left: -2px;
+        padding-bottom: 1em;
+        margin-bottom: 2em;
+        text-transform: uppercase;
+        //  color: $main_color;
+
+      }
+    }
+
+    p {
+      color: $main_color;
+      &.dishes {
+        text-align: center;
+        font-size: 1.5em;
+        font-family: $button_font;
+        // color: $main_color;
+        padding-left: -14px;
+      }
+
+      &.description {
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 1em;
+        font-family: $button_font;
+        margin: 0 19em;
+        // // color: $main_color;
+        // padding-left: 126px;
+
+      }
+
+      &.breads {
+        text-align: center;
+        font-size: 1.3em;
+        font-family: $button_font;
+        // color: $main_color;
+        padding-left: -14px;
+
+      }
+
+      &.rice {
+        text-align: center;
+        font-size: 1.3em;
+        font-family: $button_font;
+        // color: $main_color;
+        padding-left: -14px;
+      }
+    }
+
+  }
+}

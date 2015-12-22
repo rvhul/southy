@@ -1,85 +1,308 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>SOUTHY</title>
-    <link rel="stylesheet" href="css/brain.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
-    <link href='https://fonts.googleapis.com/css?family=Yeseva+One&subset=latin,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Raleway:300,400,500' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Lato:700,900,400,300,200,100|Open+Sans:400,300,300italic,700' rel='stylesheet' type='text/css'>
-  </head>
-  <body>
-    <section id="landing">
-      <nav class="navbar navbar-inverse">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-              <span class="sr-only">Toggle navigation</span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="#">SOUTHY</a>
-          </div>
-          <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav pull-right">
-              <li class="active"><a href="#about_us">About Us</a></li>
-              <li><a href="#">Menu</a></li>
-              <li><a href="#">Gallery</a></li>
-              <li><a href="#">Testimonials</a></li>
-              <li><a href="#">Contact Us</a></li>
-            </ul>
-          </div>
+<head>
+  <meta charset="utf-8">
+  <title>SOUTHY</title>
+  <link rel="stylesheet" href="css/brain.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  <link href='https://fonts.googleapis.com/css?family=Yeseva+One&subset=latin,latin-ext,cyrillic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Raleway:300,400,500' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Lato:700,900,400,300,200,100|Open+Sans:400,300,300italic,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <section id="landing">
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">SOUTHY</a>
         </div>
-      </nav>
-      <div class="container text-center">
-        <div id="carousel-scroll" class="carousel slide" data-ride="carousel">
-          <ol class="carousel-indicators">
-            <li data-target="#carousel-scroll" data-slide-to="0" class="active"></li>
-            <li data-target="#carousel-scroll" data-slide-to="1"></li>
-            <li data-target="#carousel-scroll" data-slide-to="2"></li>
-          </ol>
-          <div class="carousel-inner" role="listbox">
-            <div class="item active">
-              <div class="constant text-center">
-                <h1 class="cuisine">Authentic South Indian Cuisine</h1>
-                <h1 class="cuisine">Prepared by world-renowned chefs</h1>
-                <h1 class="cuisine">Cooked to perfection for you</h1>
-              </div>
-            </div>
-            <div class="item">
-              <div class="constant text-center">
-                <h1 class="locations">Hyderabad</h1>
-                <h1 class="locations">Dubai</h1>
-                <h1 class="locations">New York City</h1>
-                <h1 class="locations">London</h1>
-              </div>
-            </div>
-            <div class="item">
-              <div class="constant text-center">
-                <h1 class="tagline"> </h1>
-                <h1 class="tagline">"..Eat here and feel like a king.."</h1>
-                <h1 class="tagline"> </h1>
-              </div>
-            </div>
-          </div>
-          <a href="#" class="action btn btn-md btn-solid">Book A Table</a>
+        <div id="navbar" class="collapse navbar-collapse">
+          <ul class="nav navbar-nav pull-right">
+            <li class="active"><a href="#about_us">About Us</a></li>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
         </div>
       </div>
-    </section>
-    <section id="about_us">
-      <div class="container">
-        <div class="about_us">
-          <h2 class="about">
-            About Us
-          </h2>
-          <p class="body">Our roots began in Hyderabad where our renowned chefs Rahul Malhotra & Jigmet Wangchuk studied the craft of authentic South Indian cuisine since 1975. Both are Michelin-Star rated chefs and had a dream of opening a restaurant which catered the food they both grew up eating. SOUTHY will be the ultimate delight for your tastebuds and an experience you will never forget. </p>
+    </nav>
+    <div class="container text-center">
+      <div id="carousel-scroll" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carousel-scroll" data-slide-to="0" class="active"></li>
+          <li data-target="#carousel-scroll" data-slide-to="1"></li>
+          <li data-target="#carousel-scroll" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="constant text-center">
+              <h1 class="cuisine">Authentic South Indian Cuisine</h1>
+              <h1 class="cuisine">Prepared by world-renowned chefs</h1>
+              <h1 class="cuisine">Cooked to perfection for you</h1>
+            </div>
+          </div>
+          <div class="item">
+            <div class="constant text-center">
+              <h1 class="locations">Hyderabad</h1>
+              <h1 class="locations">Dubai</h1>
+              <h1 class="locations">New York City</h1>
+              <h1 class="locations">London</h1>
+            </div>
+          </div>
+          <div class="item">
+            <div class="constant text-center">
+              <h1 class="tagline"> </h1>
+              <h1 class="tagline">"..Eat here and feel like a king.."</h1>
+              <h1 class="tagline"> </h1>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="action btn btn-md btn-solid">Book A Table</a>
+      </div>
+    </div>
+  </section>
+  <section id="about_us">
+    <div class="container">
+      <div class="about_us">
+        <h2 class="about">
+          About Us
+        </h2>
+        <p class="body">Our roots began in Hyderabad where our renowned chefs Rahul Malhotra & Jigmet Wangchuk studied the craft of authentic South Indian cuisine since 1975. Both are Michelin-Star rated chefs and had a dream of opening a restaurant which catered the food they both grew up eating. SOUTHY will be the ultimate delight for your tastebuds and an experience you will never forget. </p>
+      </div>
+    </div>
+  </section>
+  <section id="menu">
+    <div class="container">
+      <div id="carousel-scroll1" class="carousel slide" data-ride="carousel" data-interval="100000000000000000000">
+        <div class="carousel-inner" role="listbox">
+          <div class="item active">
+            <div class="carousel-caption">
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="main">Menu</h3>
+                <h3 class="item_header">
+                  Appetizers
+                </h3>
+                <p class="dishes">Urlai Roast</p>
+                <p class="description">Baby potatoes tossed with onions and ground spices.</p><br>
+                <p class="dishes">Tomato Pappu</p>
+                <p class="description">Lentils cooked with tomatoes, onions, chillies and tempered with garlic and mustard.</p><br>
+                <p class="dishes">Alasandhe Kaazhu Saaru</p>
+                <p class="description">Mysore style preperation of black eyed beans cooked in a curry of coconut, onion and green chillies.</p><br>
+                <p class="dishes">Royyala Vepudu</p>
+                <p class="description">Prawns tossed with browned onions, tomatoes, ginger, garlic and ground spices.</p><br>
+                <p class="dishes">Veinchina Mamsam</p>
+                <p class="description">Lamb morsels tossed with browned onions, coriander and spices.</p><br>
+                <p class="dishes">Kori Gassi</p>
+                <p class="description">A typical Mangalorean preperation of chicken with bedgi chillies and coconut.</p><br>
+                <p class="dishes">Meen Moilee</p>
+                <p class="description">Fish simmered in cocunut milk with ginger,garlic and ground spices.</p><br>
+                <p class="dishes">Kozi Sukka Varuval</p>
+                <p class="description">Chicken morsels cooked dry with a blend of ethnic spices.</p><br>
+                <p class="dishes">Meen Varuval</p>
+                <p class="description">Seasonal murrel fish marinated in chettinad spices and pan fried. </p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="carousel-caption">
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="main">Menu</h3>
+                <h3 class="item_header">
+                  Main Course
+                </h3>
+                <p class="dishes">Royalla Iguru</p>
+                <p class="description">Prawns simmered in semi dry tomato and coconut gravy</p><br>
+                <p class="dishes">Natukodi Koora</p>
+                <p class="description">Tender pieces of country chicken napped in tomato and nut based gravy, a speicality of Telangana region.</p><br>
+                <p class="dishes">Gongura Mamsam</p>
+                <p class="description">Rozelle leaves blended with succulent pieces of lamb with a hint of garlic and spices .</p><br>
+                <p class="dishes">Kal Yera Thokku</p>
+                <p class="description">Lobster Tail cooked to perfection in a spicy and tangy gravy.</p><br>
+                <p class="dishes">Madras Meen Curry</p>
+                <p class="description">Murrel fish cubes cooked in tomato and coconut gravy along with drumstick and raw mango.</p><br>
+                <p class="dishes">Kozhi Melagu Curry</p>
+                <p class="description">Tender pieces of chicken cooked in an exquisite pepper flavoured gravy</p><br>
+                <p class="dishes">Yetti masala</p>
+                <p class="description">Shrimps cooked in tomato based gravy in traditional Tulu style.</p><br>
+                <p class="dishes">Kori Kempu Bezule</p>
+                <p class="description">Chicken morsels batter fried and tossed with onions, tomato and curd</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="carousel-caption">
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="main">Menu</h3>
+                <h3 class="item_header">
+                  Breads
+                </h3>
+                <p class="breads">Romali Roti</p>
+                <p class="description">Thin soft bread baked on hot pan that light and tasty.</p><br>
+                <p class="breads">Tandoori Roti</p>
+                <p class="description">Wheat bread baked in hot tandoori oven that complements with every type of food.</p></br>
+                <p class="breads">Aloo Paratha</p>
+                <p class="description">Bread stuffed with mashed potatoes baked on hot pan.</p><br>
+                <p class="breads">Butter Naan</p>
+                <p class="description">Bread baked in hot oven with butter applied on top.</p>
+                <h3 class="item_header">
+                  Rice
+                </h3>
+                <p class="rice">Jeera Rice</p>
+                <p class="description">Basmati rice mixed with cumen seeds</p><br>
+                <p class="rice"> Pulav Rice</p>
+                <p class="description">Basmati cooked cooked in pot with chicken, vegetables, fish, mutton and variety of spices</p><br>
+                <p class="rice">Plain Jasmine Rice</p>
+                <p class="description">White rice  mixed with variety of spices anf jasmine flavour</p></br>
+                <p class="rice">Chicken Biryani</p>
+                <p class="description">Basmati Rice cooked with chicken breast and variety of spices</p><br>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="carousel-caption">
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="main">Menu</h3>
+                <h3 class="item_header">
+                  Desserts
+                </h3>
+                <p class="dishes">Payasam</p>
+                <p class="description">Payasam is the one dessert that is savoured in the South regardless of age and culture - a sweetened pudding cooked with coconut milk, sugar and dairy milk that will entice the gastronomical senses.</p><br>
+                <p class="dishes">Mysore Pak</p>
+                <p class="description">Mysore Pak does wonders to a sweet lovers palate. Made from generous amounts of ghee, sugar, gram flour and fragrant cardamom, it is hard to resist another piece of it.</p><br>
+                <p class="dishes">Rava Kesari with Milk</p>
+                <p class="description">South India's Rava Kesari is an absolute treat with its creamy and roasty after taste. Made from saffron, mangoes, pineapples, cahsews and raisins </p><br>
+                <p class="dishes">Maladu</p>
+                <p class="description"> Maladu is a protein rich treat. It is made from roasted gram dal or chutney dal (pottukadalai). Made in mere 15 minutes using less than six ingredients.Not only are they 'melt in the mouth' good but are also nutritious. </p><br>
+                <p class="dishes">Unni Appam</p>
+                <p class="description">Similar to the soft and sugary gulab jamuns, it is a popular delicacy in Kerala made from rice, jaggery, banana, roasted pieces of coconut, roasted ground sesame seeds, ghee and cardamom powder.</p><br>
+                <p class="dishes">Kozhukkattai</p>
+                <p class="description">In Tamil Nadu this popular treat is associated with Lord Ganesha and is prepared as an offering on the religious occasion of Vinayaka Chathurthi.This sweet dumpling is made from rice flour, with a filling of grated coconut and jaggery.</p>
+              </div>
+            </div>
+          </div>
+          <div class="item">
+            <div class="carousel-caption">
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <h3 class="main">Menu</h3>
+                <h3 class="item_header">
+                  Drinks
+                </h3>
+                <p class="dishes">Jigarthanda</p>
+                <p class="description">One of the best tasting summer drink which has its origins in Madurai.The main ingredients of jigarthanda recipe are reduced full fat milk, reduced milk ice cream and two natural coolants i.e, badam pisin (edible almond gum) and nannari (sarsaparilla roots) syrup.</p><br>
+                <p class="dishes">Mongo Iced Tea</p>
+                <p class="description">Mango iced tea is a delicious, tropical summer beverage that combines two ingredients, tea and ripe mango puree.. A winning combination with a feel good factor.</p><br>
+                <p class="dishes">Falooda</p>
+                <p class="description">a milk based dessert, has rose syrup, falooda sev or vermicelli made from arrowroot or corn flour, milk, falooda seeds (basil seeds) saffron, pista, mango, strawberry, chocolate and ice cream going into it.</p><br>
+                <p class="dishes">Fruit Lassi</p>
+                <p class="description">Yoghurt mixed with fresh fruits like apple, banana, mango, grapes and musk melon. Along with a medley of fruity flavors, fruit lassi is loaded with vitamins and antioxidants and has a natural sweetness. </p> <br>
+                <p class="dishes"> Badam Kheer – Almond Dessert</p>
+                <p class="description">A milk based dessert/drink where ground almonds are cooked in milk and sugar and flavored with saffron and cardamom. Its not-so-creamy texture, mild nutty flavor of almonds, aromatic rich flavor of saffron and cardamom make it a delicious sweet drink after a dinner party or a spicy meal.</p><br>
+                <p class="dishes">Virgin Pina Colada</p>
+                <p class="description">Virgin pina colada recipe is basically a mocktail with pineapple juice and thick coconut milk, with frozen pineapple chunks in it.</p><br>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="left carousel-control" href="#carousel-scroll1" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control" href="#carousel-scroll1" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+    </div>
+  </section>
+  <section id="gallery">
+    <div id="carousel2" class="carousel slide" data-ride="carousel" data-wrap="true" data-keyboard="true" data-interval="100000">
+    <div class="carousel-inner" role="listbox">
+      <div class="item item1 active">
+        <div class="carousel-caption">
+          <div class="backdrop">
+            <h4>Live Fire Cooking - New York City</h4>
+            <p>Our chefs prepare delicious meals live for guests who appreciate the process just as much as the result.</p>
+          </div>
         </div>
       </div>
-    </section>
-  </body>
+      <div class="item item2">
+        <div class="carousel-caption">
+          <div class="backdrop">
+            <h4>Pub Style Seating - London</h4>
+            <p> Our London location has traditional pub style seating for a fusion of east and west.</p>
+          </div>
+        </div>
+      </div>
+      <div class="item item3">
+        <div class="carousel-caption">
+          <div class="backdrop">
+            <h4>Couple/Small Party Seating - London</h4>
+            <p>If you're a couple looking for a cozy spot to spend a nice evening or a night out with your co-workers, we provide seating accordingly for both.
+            </div>
+          </div>
+        </div>
+        <div class="item item4">
+          <div class="carousel-caption">
+            <div class="backdrop">
+              <h4>Private Lounge/Dinner Party - Dubai</h4>
+              <p>Situated in arguably the most happening city in the world, we offer exclusive private lounge and private dinner party seating areas for patrons to host and impress their guests.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item item5">
+          <div class="carousel-caption">
+            <div class="backdrop">
+              <h4>Bar Area - New York City</h4>
+              <p>Stocked with the finest liquers and beers from around the world, our bar area in NYC is the place to be on a Saturday night.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item item6">
+          <div class="carousel-caption">
+            <div class="backdrop">
+              <h4>Mixed Formal & Casual Seating - Hyderabad</h4>
+              <p>Combined with a fusion of the formal and informal, our flagship location has both options to meet your need and mood for an elegant night out.</p>
+            </div>
+          </div>
+        </div>
+        <div class="item item7">
+          <div class="carousel-caption">
+            <div class="backdrop">
+              <h4>Mixed Formal & Casual Seating - Hyderabad</h4>
+              <p>Combined with a fusion of the formal and informal, our flagship location has both options to meet your need and mood for an elegant night out.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#carousel2" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel2" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
+</body>
 </html>

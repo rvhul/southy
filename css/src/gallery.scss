@@ -1,0 +1,131 @@
+#gallery {
+
+  .carousel-inner {
+    .item1 {
+      background-image: url(../images/rest1.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      height: 100vh;
+
+      .backdrop {
+        background-color: black;
+        opacity: .6;
+        width: auto;
+        display: inline-block;
+        padding: 1em 2em;
+      }
+    }
+
+    .item2 {
+      background-image: url(../images/rest2.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      height: 100vh;
+
+      .backdrop {
+        background-color: black;
+        opacity: .6;
+        width: auto;
+        display: inline-block;
+        padding: 1em 2em;
+      }
+    }
+
+    .item3 {
+      background-image: url(../images/rest3.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      height: 100vh;
+
+      .backdrop {
+        background-color: black;
+        opacity: .6;
+        width: auto;
+        display: inline-block;
+        padding: 1em 2em;
+      }
+    }
+
+    .item4 {
+      background-image: url(../images/rest4.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      height: 100vh;
+
+      .backdrop {
+        background-color: black;
+        opacity: .6;
+        width: auto;
+        display: inline-block;
+        padding: 1em 2em;
+      }
+    }
+
+    .item5 {
+      background-image: url(../images/rest5.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      height: 100vh;
+
+      .backdrop {
+        background-color: black;
+        opacity: .6;
+        width: auto;
+        display: inline-block;
+        padding: 1em 2em;
+      }
+    }
+
+    .item6 {
+      background-image: url(../images/rest6.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+      height: 100vh;
+
+      .backdrop {
+        background-color: black;
+        opacity: .6;
+        width: auto;
+        display: inline-block;
+        padding: 1em 2em;
+      }
+    }
+
+    .item7 {
+      background-image: url(../images/rest7.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position:  center center;
+      height: 100vh;
+
+      .backdrop {
+        background-color: black;
+        opacity: .6;
+        width: auto;
+        display: inline-block;
+        padding: 1em 2em;
+      }
+    }
+    h4 {
+      font-family: $button_font;
+      color: $main_color;
+      font-size: 2em;
+      background-position: center center;
+      height: 7vh;
+      margin-bottom: -20px;
+}
+
+    p {
+      color: $main_color;
+      font-family: $button_font;
+      font-size: 1.5em;
+      font-style: italic;
+    }
+    }
+  }

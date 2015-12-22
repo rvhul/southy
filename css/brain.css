@@ -1,92 +1,272 @@
-/*
-Error: Invalid CSS after "      font-size:": expected expression (e.g. 1px, bold), was "}"
-        on line 34 of css/src/landing.scss
-        from line 2 of css/src/brain.scss
+#landing {
+  min-height: 100vh;
+  background-image: url("../images/vada.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+  #landing nav.navbar-inverse {
+    background-color: transparent;
+    border-color: transparent; }
+  #landing nav.navbar-inverse .navbar-nav > .active > a {
+    background-color: transparent; }
+  #landing nav a {
+    text-align: center;
+    color: #C8AF59;
+    font-weight: 200;
+    font-family: "Raleway";
+    font-size: 15px;
+    letter-spacing: 2px;
+    font-weight: bold; }
+  #landing nav .navbar-brand {
+    text-transform: uppercase;
+    color: #C9604C;
+    font-family: "Yeseva-one";
+    font-size: 1.3em; }
+  #landing .carousel-indicators {
+    position: absolute;
+    top: 50em; }
+  #landing .carousel-inner {
+    position: relative;
+    top: 35vh;
+    min-height: 50vh; }
+    #landing .carousel-inner .constant {
+      padding: .3em 0em;
+      text-transform: uppercase;
+      font-weight: 100; }
+    #landing .carousel-inner .cuisine {
+      font-size: 2.7em;
+      font-family: "Raleway";
+      color: white;
+      text-shadow: 2px 2px black; }
+    #landing .carousel-inner .locations {
+      font-size: 2.7em;
+      font-family: "Raleway";
+      color: white;
+      text-shadow: 2px 2px black; }
+    #landing .carousel-inner .tagline {
+      font-size: 2.7em;
+      font-family: "Raleway";
+      color: white;
+      text-shadow: 2px 2px black; }
+  #landing a.btn {
+    position: relative;
+    color: #C8AF59;
+    border-color: black;
+    background-color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "Lato";
+    font-size: 26px;
+    font-weight: 300;
+    margin-top: 5em; }
+    #landing a.btn:hover {
+      background-color: #37645A;
+      border-color: #37645A;
+      color: black; }
 
-29:     .navbar-brand {
-30:       text-transform: uppercase;
-31:       color: $main_color;
-32:       font-family: $native_font;
-33:       font-size:
-34:     }
-35:   }
-36: 
-37: .carousel-indicators {
-38:   position: absolute;
-39:   top: 50em;
+#about_us {
+  min-height: 100vh;
+  padding: 4em 2em;
+  background-image: url("../images/about_us.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; }
+  #about_us .about_us {
+    text-align: center;
+    background-color: black;
+    height: 28em;
+    width: 40vw;
+    opacity: .8;
+    margin: 25vh auto 0;
+    padding: 3em 2em; }
+    #about_us .about_us h2.about {
+      font-size: 5em;
+      color: #C9604C;
+      font-weight: 400;
+      font-family: "Yeseva-one";
+      font-style: italic; }
+    #about_us .about_us p.body {
+      font-size: 18px;
+      padding: 0em 1em;
+      color: #C9604C;
+      font-weight: 100;
+      font-family: "Raleway"; }
 
-Backtrace:
-css/src/landing.scss:34
-css/src/brain.scss:2
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:1161:in `expected'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/script/lexer.rb:221:in `expected!'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/script/parser.rb:571:in `assert_expr'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/script/parser.rb:62:in `parse'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:1023:in `sass_script'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:876:in `value!'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:749:in `block in try_declaration'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:1137:in `call'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:1137:in `rethrow'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:762:in `try_declaration'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:692:in `declaration_or_ruleset'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:657:in `block_child'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:649:in `block_contents'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:638:in `block'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:707:in `declaration_or_ruleset'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:657:in `block_child'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:649:in `block_contents'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:638:in `block'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:707:in `declaration_or_ruleset'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:657:in `block_child'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:649:in `block_contents'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:638:in `block'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:631:in `ruleset'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:656:in `block_child'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:646:in `block_contents'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:117:in `stylesheet'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/scss/parser.rb:42:in `parse'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/engine.rb:403:in `_to_tree'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/engine.rb:309:in `to_tree'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:324:in `block in visit_import'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/stack.rb:88:in `block in with_import'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/stack.rb:115:in `with_frame'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/stack.rb:88:in `with_import'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:323:in `visit_import'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:36:in `visit'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/stack.rb:79:in `block in with_base'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/stack.rb:115:in `with_frame'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/stack.rb:79:in `with_base'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:158:in `visit'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:52:in `map'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:36:in `visit'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:157:in `visit'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/root_node.rb:36:in `css_tree'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/engine.rb:378:in `_render_with_sourcemap'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/engine.rb:295:in `render_with_sourcemap'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:490:in `update_stylesheet'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:209:in `each'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:470:in `on_file_changed'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:328:in `block in watch'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/vendor/listen/lib/listen/listener.rb:252:in `call'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-/home/rvhul/.rvm/gems/ruby-2.2.1/gems/sass-3.4.19/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid CSS after \"      font-size:\": expected expression (e.g. 1px, bold), was \"}\"\A         on line 34 of css/src/landing.scss\A         from line 2 of css/src/brain.scss\A \A 29:     .navbar-brand {\A 30:       text-transform: uppercase;\A 31:       color: $main_color;\A 32:       font-family: $native_font;\A 33:       font-size:\A 34:     }\A 35:   }\A 36: \A 37: .carousel-indicators {\A 38:   position: absolute;\A 39:   top: 50em;"; }
+#menu {
+  padding: 4em 2em;
+  background-image: url(../images/idli.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+  #menu carousel-control {
+    position: absolute;
+    top: 10%;
+    bottom: 0;
+    left: 39px;
+    width: 10%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    background-color: transparent;
+    filter: alpha(opacity=50);
+    opacity: .5; }
+  #menu .carousel-control.left {
+    left: 2em;
+    margin-top: 11em;
+    width: 0em; }
+  #menu .carousel-control.right {
+    margin-top: 11em;
+    width: 0em;
+    left: 55em; }
+  #menu .carousel-control.glyphicon-chevron-right {
+    margin-right: 50px; }
+  #menu .row {
+    text-align: center;
+    background-color: black;
+    height: 75em;
+    width: 65vw;
+    opacity: .8;
+    margin: 25vh auto 0;
+    padding: 2em 2em;
+    margin-left: -2em; }
+    #menu .row h3 {
+      color: #C9604C; }
+      #menu .row h3.main {
+        text-align: center;
+        font-family: "Yeseva-one";
+        font-style: italic;
+        font-size: 1.5em; }
+      #menu .row h3.item_header {
+        text-align: center;
+        font-family: "Raleway";
+        text-transform: capitalize;
+        margin-top: 45px;
+        margin-bottom: 35px;
+        margin-left: -2px;
+        padding-bottom: 1em;
+        margin-bottom: 2em;
+        text-transform: uppercase; }
+    #menu .row p {
+      color: #C9604C; }
+      #menu .row p.dishes {
+        text-align: center;
+        font-size: 1.5em;
+        font-family: "Lato";
+        padding-left: -14px; }
+      #menu .row p.description {
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 1em;
+        font-family: "Lato";
+        margin: 0 19em; }
+      #menu .row p.breads {
+        text-align: center;
+        font-size: 1.3em;
+        font-family: "Lato";
+        padding-left: -14px; }
+      #menu .row p.rice {
+        text-align: center;
+        font-size: 1.3em;
+        font-family: "Lato";
+        padding-left: -14px; }
+
+#gallery .carousel-inner .item1 {
+  background-image: url(../images/rest1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh; }
+  #gallery .carousel-inner .item1 .backdrop {
+    background-color: black;
+    opacity: .6;
+    width: auto;
+    display: inline-block;
+    padding: 1em 2em; }
+#gallery .carousel-inner .item2 {
+  background-image: url(../images/rest2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh; }
+  #gallery .carousel-inner .item2 .backdrop {
+    background-color: black;
+    opacity: .6;
+    width: auto;
+    display: inline-block;
+    padding: 1em 2em; }
+#gallery .carousel-inner .item3 {
+  background-image: url(../images/rest3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh; }
+  #gallery .carousel-inner .item3 .backdrop {
+    background-color: black;
+    opacity: .6;
+    width: auto;
+    display: inline-block;
+    padding: 1em 2em; }
+#gallery .carousel-inner .item4 {
+  background-image: url(../images/rest4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh; }
+  #gallery .carousel-inner .item4 .backdrop {
+    background-color: black;
+    opacity: .6;
+    width: auto;
+    display: inline-block;
+    padding: 1em 2em; }
+#gallery .carousel-inner .item5 {
+  background-image: url(../images/rest5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh; }
+  #gallery .carousel-inner .item5 .backdrop {
+    background-color: black;
+    opacity: .6;
+    width: auto;
+    display: inline-block;
+    padding: 1em 2em; }
+#gallery .carousel-inner .item6 {
+  background-image: url(../images/rest6.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh; }
+  #gallery .carousel-inner .item6 .backdrop {
+    background-color: black;
+    opacity: .6;
+    width: auto;
+    display: inline-block;
+    padding: 1em 2em; }
+#gallery .carousel-inner .item7 {
+  background-image: url(../images/rest7.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100vh; }
+  #gallery .carousel-inner .item7 .backdrop {
+    background-color: black;
+    opacity: .6;
+    width: auto;
+    display: inline-block;
+    padding: 1em 2em; }
+#gallery .carousel-inner h4 {
+  font-family: "Lato";
+  color: #C9604C;
+  font-size: 2em;
+  background-position: center center;
+  height: 7vh;
+  margin-bottom: -20px; }
+#gallery .carousel-inner p {
+  color: #C9604C;
+  font-family: "Lato";
+  font-size: 1.5em;
+  font-style: italic; }
+
+/*# sourceMappingURL=brain.css.map */
